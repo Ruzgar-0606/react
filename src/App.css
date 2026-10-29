@@ -1,14 +1,14 @@
 .container {
     max-width: 800px;
     margin: 40px auto;
-    background: white;
-    padding: 30px;
+    background: rgb(15, 195, 223);
+    padding: 100px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 
 .title {
-    color: #6e25eb;
+    color: #a208a2;
 }
 
 .games {
