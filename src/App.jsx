@@ -1,19 +1,19 @@
-import './App.css'
+<div className="container">
 
-function App() {
-  return (
-    <>
-      <h1>🎮 Game Collection</h1>
+    <h1 className="title">
+        🎮 Game Collection
+    </h1>
 
-      <h2>Welkom bij mijn eerste React-applicatie!</h2>
+    <div className="games">
 
-      <p>Naam: Ruzgar</p>
+        <h2>Welkom bij mijn eerste React-applicatie!</h2>
 
-      <p>Studentnummer: 2217991</p>
+        <p>Ruzgar Gur</p>
 
-      <p>Klas: 25b</p>
-    </>
-  )
-}
+        <p>2217991</p>
 
-export default App
+        <p>25b</p>
+
+    </div>
+
+</div>
