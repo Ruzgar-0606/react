@@ -105,3 +105,38 @@ Props zijn gegevens die je van een bovenliggende React-component doorgeeft aan e
 Waarom Props belangrijk zijn (54 woorden)
 
 Ik vind Props handig omdat ik één GameCard kan gebruiken voor verschillende games. De titel en het platform geef ik per kaart mee, terwijl de opmaak hetzelfde blijft. Daardoor hoef ik geen aparte code voor iedere game te schrijven. Als ik de kaart wil aanpassen, hoef ik dat maar op één plek te doen.
+
+Game Collection - Les 5
+
+Kennischeck
+
+1. Wat is State?
+State is veranderbare informatie die React voor een component onthoudt terwijl de app wordt gebruikt.
+
+2. Waarom gebruiken we useState()?
+useState() bewaart een waarde in een component en geeft een functie om die waarde te wijzigen. React werkt de weergave daarna bij.
+
+3. Wat doet setFavorite()?
+setFavorite() verandert de favorite-state, zodat de game als favoriet aan- of uitgezet wordt.
+
+4. Wat doet onClick?
+onClick voert een functie uit wanneer de gebruiker op de knop klikt.
+
+5. Waarom verandert de tekst op de knop?
+De tekst is afhankelijk van favorite. Bij true verschijnt “❤️ Favoriet”, anders “🤍 Favoriet”.
+
+6. Waarom bouwt React de component opnieuw op?
+Na een state-wijziging rendert React de component opnieuw, zodat de interface de actuele waarde laat zien.
+
+7. Noem drie voorbeelden waarbij State handig is.
+State is handig voor favorieten, de inhoud van een winkelwagen en zoekopdrachten.
+
+AI-opdracht
+
+Uitleg van ChatGPT
+
+useState() is een React-functie waarmee een component een veranderbare waarde kan onthouden. Je krijgt de huidige waarde en een functie om die te veranderen. Als je die functie aanroept, werkt React de interface bij. In een GameCard kan State bijvoorbeeld onthouden of een game favoriet is.
+
+Wanneer ik State zou gebruiken (49 woorden)
+
+Ik gebruik State wanneer de pagina moet reageren op wat iemand doet. In mijn Game Collection gebruik ik het om te onthouden of een game favoriet is. Na een klik verandert de knop van een wit hartje naar een rood hartje. De andere GameCards houden hun eigen favorietstatus bij.
