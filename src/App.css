@@ -1,63 +1,80 @@
 .container {
-  width: min(1000px, calc(100% - 48px));
-  margin: 50px auto;
-  padding: 40px 38px;
-  border-radius: 14px;
+  width: min(900px, calc(100% - 40px));
+  margin: 48px auto;
+  padding: clamp(24px, 5vw, 40px);
+  border: 1px solid #e8e7f2;
+  border-radius: 20px;
   background: #fff;
-  box-shadow: 0 2px 18px rgb(0 0 0 / 10%);
+  box-shadow: 0 16px 44px rgb(46 38 87 / 9%);
 }
 
-.title {
-  display: flex;
-  align-items: center;
-  gap: 18px;
-  margin: 0 0 34px;
-  color: #080808;
-  font-size: 40px;
+.app-title {
+  margin: 0;
+  padding-bottom: 16px;
+  border-bottom: 3px solid #7652d6;
+  color: #6841c6;
+  font-size: clamp(2rem, 5vw, 2.6rem);
   line-height: 1.2;
 }
 
-.games {
-  margin-top: 0;
-  color: #111;
+.game-list {
+  margin-top: 26px;
 }
 
-.games h2 {
+.game-list > h2 {
+  margin: 0 0 14px;
+  color: #29233a;
+  font-size: clamp(1.2rem, 3vw, 1.55rem);
+}
+
+.game-list > p {
+  margin: 6px 0;
+  color: #5f5a6e;
+}
+
+.game-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 14px;
+  margin-top: 28px;
+}
+
+.game-card {
+  padding: 18px;
+  border: 1px solid #e7e4ef;
+  border-radius: 14px;
+  background: #faf9fd;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.game-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgb(46 38 87 / 10%);
+}
+
+.game-card h3 {
+  margin: 0 0 8px;
+  color: #34284f;
+  font-size: 1.1rem;
+}
+
+.game-card p {
   margin: 0;
-  font-size: 30px;
-  line-height: 1.25;
-}
-
-.games p,
-footer {
-  margin: 0;
-  font-size: 20px;
-  line-height: 1.2;
+  color: #706a7e;
 }
 
 footer {
-  color: #111;
+  margin-top: 28px;
+  padding-top: 18px;
+  border-top: 1px solid #e8e7f2;
+  color: #817a8d;
+  font-size: 0.9rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   .container {
-    width: calc(100% - 32px);
-    margin: 24px auto;
-    padding: 28px 22px;
-  }
-
-  .title {
-    gap: 12px;
-    margin-bottom: 26px;
-    font-size: clamp(26px, 7vw, 36px);
-  }
-
-  .games h2 {
-    font-size: clamp(20px, 5vw, 26px);
-  }
-
-  .games p,
-  footer {
-    font-size: 17px;
+    width: calc(100% - 24px);
+    margin: 20px auto;
+    padding: 22px 18px;
   }
 }

@@ -70,3 +70,38 @@ Een React-component is een herbruikbaar stukje van een website. Je kunt het verg
 Waarom componenten belangrijk zijn (53 woorden)
 
 Ik vind componenten belangrijk omdat ze mijn code overzichtelijk houden. De Header en Footer staan nu los van de rest van de pagina en zijn eenvoudig opnieuw te gebruiken. Als ik de titel of footer wil aanpassen, hoef ik dat maar op één plek te doen. Dat voorkomt herhaling en maakt uitbreiden makkelijker.
+
+Game Collection - Les 4
+
+Kennischeck
+
+1. Waar staat Props voor?
+Props is een afkorting van properties: gegevens of eigenschappen die je aan een React-component meegeeft.
+
+2. Waarom gebruiken we Props?
+Met Props kan dezelfde component verschillende gegevens tonen, waardoor componenten herbruikbaar zijn.
+
+3. Hoe geef je gegevens door aan een component?
+Je geeft gegevens mee als attributen, bijvoorbeeld <GameCard title="Minecraft" platform="PC" />.
+
+4. Hoe lees je Props uit binnen een component?
+De component ontvangt Props als parameter en leest een waarde bijvoorbeeld met props.title of props.platform.
+
+5. Waarom is een GameCard met Props beter dan drie losse GameCards?
+Je schrijft de opmaak maar één keer en geeft elke game eigen gegevens mee. Dat voorkomt dubbele code.
+
+6. Wat gebeurt er als je een andere titel doorgeeft?
+De GameCard toont de nieuwe titel die via de title-prop is meegegeven.
+
+7. Wat is het voordeel van herbruikbare componenten?
+Je kunt dezelfde component op meerdere plekken gebruiken en hoeft aanpassingen maar op één plek te doen.
+
+AI-opdracht
+
+Uitleg van ChatGPT
+
+Props zijn gegevens die je van een bovenliggende React-component doorgeeft aan een onderliggende component. Je kunt ze vergelijken met informatie op een bestelformulier. Een GameCard ontvangt bijvoorbeeld een title en platform. De component gebruikt die waarden om de juiste game te tonen. Zo kan dezelfde GameCard Minecraft, Mario Kart of een andere game weergeven.
+
+Waarom Props belangrijk zijn (54 woorden)
+
+Ik vind Props handig omdat ik één GameCard kan gebruiken voor verschillende games. De titel en het platform geef ik per kaart mee, terwijl de opmaak hetzelfde blijft. Daardoor hoef ik geen aparte code voor iedere game te schrijven. Als ik de kaart wil aanpassen, hoef ik dat maar op één plek te doen.

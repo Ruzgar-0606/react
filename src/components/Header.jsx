@@ -1,5 +1,5 @@
-function Header() {
-  return <h1 className="title">🎮 Game Collection</h1>
+function Header(props) {
+  return <h1 className="app-title">{props.title}</h1>
 }
 
 export default Header
