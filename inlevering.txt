@@ -1,0 +1,31 @@
+Game Collection - Les 1
+Naam: Ruzgar
+Studentnummer: 2217991
+Klas: 25b
+
+Kennischeck
+
+1. Wat is React?
+React is een JavaScript-library waarmee je gebruikersinterfaces bouwt uit herbruikbare componenten.
+
+2. Waarom gebruiken veel bedrijven React?
+Met componenten kun je onderdelen van een interface hergebruiken. React kan de interface aanpassen wanneer gegevens veranderen en heeft een grote community en veel hulpmiddelen.
+
+3. Wat is het verschil tussen Front-end en Back-end?
+De front-end is het deel van een applicatie dat de gebruiker ziet en bedient. De back-end verwerkt gegevens achter de schermen, bijvoorbeeld op een server en in een database.
+
+4. Waarom gebruiken we Vite?
+Vite biedt een snelle en eenvoudige ontwikkelomgeving voor React, met onder andere een snelle ontwikkelserver en hot reloading.
+
+5. Wat is de functie van App.jsx?
+App.jsx bevat de hoofdcomponent van de React-applicatie en beschrijft de interface die op de pagina verschijnt.
+
+6. Wat is de functie van main.jsx?
+main.jsx is het startpunt van de app. Het koppelt React aan het root-element in index.html en rendert daarin de App-component.
+
+7. Waarom gebruiken we GitHub tijdens deze module?
+GitHub bewaart de broncode en de geschiedenis van wijzigingen online. Zo kun je werk terugvinden, delen en samenwerken.
+
+AI-opdracht
+
+Ik vind de uitleg uit de les duidelijker, omdat die de begrippen stap voor stap behandelt en voorbeelden gebruikt die aansluiten bij de Game Collection. De uitleg van ChatGPT is handig als korte samenvatting, maar kan algemener zijn. Door beide uitleggen te vergelijken begrijp ik beter dat React componenten gebruikt om herbruikbare onderdelen van een front-end te maken.
