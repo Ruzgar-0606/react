@@ -28,4 +28,10 @@ GitHub bewaart de broncode en de geschiedenis van wijzigingen online. Zo kun je 
 
 AI-opdracht
 
+Uitleg van ChatGPT
+
+React is een JavaScript-library waarmee je websites maakt uit herbruikbare onderdelen, die componenten heten. Je kunt bijvoorbeeld een GameCard-component maken en die voor veel verschillende games gebruiken. Als de gegevens veranderen, werkt React de bijbehorende onderdelen van de pagina bij. React wordt gebruikt voor de front-end: het deel van een website waarmee de gebruiker direct werkt. Met Vite kun je snel een React-project starten en tijdens het programmeren direct wijzigingen bekijken.
+
+Vergelijking met de les (58 woorden)
+
 Ik vind de uitleg uit de les duidelijker, omdat die de begrippen stap voor stap behandelt en voorbeelden gebruikt die aansluiten bij de Game Collection. De uitleg van ChatGPT is handig als korte samenvatting, maar kan algemener zijn. Door beide uitleggen te vergelijken begrijp ik beter dat React componenten gebruikt om herbruikbare onderdelen van een front-end te maken.
