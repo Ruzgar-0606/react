@@ -3,6 +3,29 @@ import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
 import GameCard from './components/GameCard.jsx'
 
+const games = [
+  {
+    id: 1,
+    title: 'Minecraft',
+    platform: 'PC',
+  },
+  {
+    id: 2,
+    title: 'Mario Kart',
+    platform: 'Nintendo Switch',
+  },
+  {
+    id: 3,
+    title: 'Rocket League',
+    platform: 'PlayStation 5',
+  },
+  {
+    id: 4,
+    title: 'GTA 6',
+    platform: 'playstation 4',
+  },
+]
+
 function App() {
   return (
     <div className="container">
@@ -15,9 +38,13 @@ function App() {
         <p>Klas: 25b</p>
 
         <div className="game-cards">
-          <GameCard title="Minecraft" platform="PC" />
-          <GameCard title="Mario Kart" platform="Nintendo Switch" />
-          <GameCard title="Rocket League" platform="PlayStation 5" />
+          {games.map((game) => (
+            <GameCard
+              key={game.id}
+              title={game.title}
+              platform={game.platform}
+            />
+          ))}
         </div>
       </div>
 

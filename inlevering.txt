@@ -140,3 +140,38 @@ useState() is een React-functie waarmee een component een veranderbare waarde ka
 Wanneer ik State zou gebruiken (49 woorden)
 
 Ik gebruik State wanneer de pagina moet reageren op wat iemand doet. In mijn Game Collection gebruik ik het om te onthouden of een game favoriet is. Na een klik verandert de knop van een wit hartje naar een rood hartje. De andere GameCards houden hun eigen favorietstatus bij.
+
+Game Collection - Les 6
+
+Kennischeck
+
+1. Wat is een array?
+Een array is een lijst waarin je meerdere waarden of objecten bij elkaar bewaart.
+
+2. Waarom gebruiken we een array in React?
+Een array houdt een verzameling gegevens, zoals games, overzichtelijk op één plek. React kan de gegevens gebruiken om onderdelen te tonen.
+
+3. Wat doet de functie map()?
+map() loopt door elk item in een array en maakt op basis van ieder item een nieuw resultaat, zoals een GameCard.
+
+4. Waarom gebruiken we een key?
+Een unieke key helpt React herkennen welke lijstonderdelen zijn toegevoegd, veranderd of verwijderd.
+
+5. Waarom hoeft de component GameCard maar één keer gemaakt te worden?
+Dezelfde GameCard kan telkens opnieuw gebruikt worden met andere gegevens via Props.
+
+6. Wat gebeurt er als je een nieuwe game toevoegt aan de array?
+map() maakt automatisch een extra GameCard voor de nieuwe game.
+
+7. Waarom wordt map() in vrijwel iedere React-applicatie gebruikt?
+Met map() kan React lijsten gegevens efficiënt omzetten naar herbruikbare componenten, zonder dezelfde JSX steeds te kopiëren.
+
+AI-opdracht
+
+Uitleg van ChatGPT
+
+React gebruikt map() om elk item uit een lijst om te zetten naar een component. Je schrijft de component dus één keer en geeft voor ieder item andere gegevens mee. Een unieke key helpt React de onderdelen van de lijst uit elkaar te houden wanneer de gegevens veranderen.
+
+Waarom map() belangrijk is (51 woorden)
+
+map() is belangrijk omdat lijsten in een app vaak groeien of veranderen. Ik hoef alleen een game aan de array toe te voegen; React maakt automatisch de bijbehorende GameCard. Zo vermijd ik gekopieerde code en blijft de opmaak overal hetzelfde. Met unieke keys kan React bovendien iedere game betrouwbaar blijven volgen.
