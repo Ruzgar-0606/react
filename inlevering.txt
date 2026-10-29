@@ -35,3 +35,38 @@ React is een JavaScript-library waarmee je websites maakt uit herbruikbare onder
 Vergelijking met de les (58 woorden)
 
 Ik vind de uitleg uit de les duidelijker, omdat die de begrippen stap voor stap behandelt en voorbeelden gebruikt die aansluiten bij de Game Collection. De uitleg van ChatGPT is handig als korte samenvatting, maar kan algemener zijn. Door beide uitleggen te vergelijken begrijp ik beter dat React componenten gebruikt om herbruikbare onderdelen van een front-end te maken.
+
+Game Collection - Les 3
+
+Kennischeck
+
+1. Wat is een component?
+Een component is een zelfstandig en herbruikbaar onderdeel van een React-interface, zoals een header, gamekaart of footer.
+
+2. Waarom gebruiken we componenten?
+Componenten verdelen de interface in kleine, overzichtelijke onderdelen. Daardoor kun je code makkelijker onderhouden en onderdelen opnieuw gebruiken.
+
+3. Waarom maken we een map components?
+De map components houdt componentbestanden bij elkaar, zodat de projectstructuur overzichtelijk blijft.
+
+4. Wat doet export default?
+export default maakt een component beschikbaar voor andere bestanden, zodat die component geïmporteerd kan worden.
+
+5. Wat doet import?
+import haalt een geëxporteerde component uit een ander bestand, zodat je hem kunt gebruiken.
+
+6. Waarom gebruiken we <Header /> in plaats van een gewone <h1>?
+<Header /> gebruikt de Header-component uit een apart bestand. Die component kan ook eigen structuur en opmaak bevatten en is op andere plekken opnieuw te gebruiken.
+
+7. Wat is het voordeel van herbruikbare componenten?
+Je schrijft een onderdeel één keer. Als je het aanpast, geldt die wijziging overal waar je de component gebruikt.
+
+AI-opdracht
+
+Uitleg van ChatGPT
+
+Een React-component is een herbruikbaar stukje van een website. Je kunt het vergelijken met een LEGO-blok: een Header-component kan bijvoorbeeld de titel van je Game Collection tonen. In een ander bestand kun je die component importeren en met <Header /> op de pagina zetten. Zo bestaat een grotere website uit kleine onderdelen met ieder een eigen taak.
+
+Waarom componenten belangrijk zijn (53 woorden)
+
+Ik vind componenten belangrijk omdat ze mijn code overzichtelijk houden. De Header en Footer staan nu los van de rest van de pagina en zijn eenvoudig opnieuw te gebruiken. Als ik de titel of footer wil aanpassen, hoef ik dat maar op één plek te doen. Dat voorkomt herhaling en maakt uitbreiden makkelijker.
