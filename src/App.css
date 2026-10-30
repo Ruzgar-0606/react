@@ -89,6 +89,10 @@
   color: #706a7e;
 }
 
+.game-card p + p {
+  margin-top: 6px;
+}
+
 .favorite-button {
   margin-top: 12px;
   padding: 8px 14px;

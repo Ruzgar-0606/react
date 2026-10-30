@@ -207,6 +207,42 @@ Uitleg van ChatGPT
 
 filter() loopt door een lijst en controleert ieder item met een voorwaarde. Alleen de items waarvoor de voorwaarde waar is, komen in een nieuwe lijst. In React kun je bijvoorbeeld de gametitel vergelijken met wat iemand in het zoekveld typt. Daarna gebruik je map() om de passende games als GameCards te tonen.
 
-Waarom een zoekfunctie belangrijk is (54 woorden)
+Waarom een zoekfunctie belangrijk is (57 woorden)
 
 Een zoekfunctie helpt gebruikers snel te vinden wat ze zoeken, zonder de hele lijst door te hoeven lopen. Dat is vooral handig wanneer een applicatie veel games of andere gegevens bevat. In mijn Game Collection kan iemand een deel van een titel typen en direct passende games zien. Dat maakt de app overzichtelijker en prettiger in gebruik.
+
+
+Les 8 - JSON toegepast
+
+Kennischeck
+
+1. Waar staat JSON voor?
+JSON staat voor JavaScript Object Notation.
+
+2. Waarom gebruiken we een JSON-bestand?
+Met JSON kunnen we gegevens overzichtelijk opslaan en uitwisselen, los van de code die ze weergeeft.
+
+3. Hoe importeer je een JSON-bestand in React?
+Met een import, bijvoorbeeld: import games from './data/games.json'.
+
+4. Waarom is het handig om data buiten App.jsx op te slaan?
+App.jsx blijft overzichtelijk en games zijn makkelijker toe te voegen of aan te passen zonder de componentcode te wijzigen.
+
+5. Welke extra gegevens heb je toegevoegd aan de GameCards?
+Genre, rating en jaar.
+
+6. Waarom bleef de zoekfunctie werken nadat je de data naar JSON had verplaatst?
+De import levert dezelfde array met game-objecten op. De zoekfunctie filtert die array nog steeds op de titel.
+
+7. Wat wordt bedoeld met het scheiden van data en presentatie?
+De data bevat welke informatie wordt getoond; de component bepaalt hoe die informatie op de pagina wordt weergegeven.
+
+AI-opdracht
+
+Uitleg van ChatGPT
+
+Ontwikkelaars zetten gegevens in JSON om ze los te houden van de code die ze op het scherm toont. JSON is overzichtelijk, makkelijk aan te passen en kan door veel programmeertalen en systemen worden gelezen. Door data en presentatie te scheiden, kan ik bijvoorbeeld games toevoegen of wijzigen zonder de GameCard aan te passen. Dezelfde component kan daardoor verschillende gegevens op dezelfde manier weergeven. Dat maakt een applicatie overzichtelijker en makkelijker uit te breiden.
+
+Voordelen van het scheiden van data en presentatie (52 woorden)
+
+Als data en presentatie gescheiden zijn, blijft de code overzichtelijk. Ik kan games aanpassen in het JSON-bestand zonder de component te veranderen. Dezelfde GameCard kan veel verschillende games tonen. Daardoor kan ik makkelijker nieuwe gegevens toevoegen en fouten opsporen. Dit maakt mijn Game Collection eenvoudiger te onderhouden en later uit te breiden.

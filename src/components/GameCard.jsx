@@ -7,6 +7,9 @@ function GameCard(props) {
     <article className="game-card">
       <h3>{props.title}</h3>
       <p>Platform: {props.platform}</p>
+      <p>Genre: {props.genre}</p>
+      <p>Rating: ⭐ {props.rating}</p>
+      <p>Jaar: {props.year}</p>
       <button
         className="favorite-button"
         type="button"
