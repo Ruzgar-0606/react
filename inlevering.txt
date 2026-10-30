@@ -175,3 +175,38 @@ React gebruikt map() om elk item uit een lijst om te zetten naar een component. 
 Waarom map() belangrijk is (51 woorden)
 
 map() is belangrijk omdat lijsten in een app vaak groeien of veranderen. Ik hoef alleen een game aan de array toe te voegen; React maakt automatisch de bijbehorende GameCard. Zo vermijd ik gekopieerde code en blijft de opmaak overal hetzelfde. Met unieke keys kan React bovendien iedere game betrouwbaar blijven volgen.
+
+Game Collection - Les 7
+
+Kennischeck
+
+1. Waarvoor gebruiken we filter()?
+filter() maakt een nieuwe array met alleen de items die aan een voorwaarde voldoen, bijvoorbeeld games waarvan de titel bij de zoektekst past.
+
+2. Wat doet onChange?
+onChange reageert op wijzigingen in een invoerveld, zoals wanneer de gebruiker een letter typt.
+
+3. Waarom gebruiken we useState() bij het zoekveld?
+useState() bewaart de zoektekst, zodat React die waarde kan gebruiken om de resultaten bij te werken.
+
+4. Wat doet includes()?
+includes() controleert of een tekst een bepaalde andere tekst bevat.
+
+5. Waarom gebruiken we toLowerCase()?
+toLowerCase() maakt de zoekopdracht en gametitel kleine letters, zodat zoeken niet afhankelijk is van hoofdletters.
+
+6. Wat gebeurt er nadat filter() klaar is?
+map() maakt GameCards voor de games die overblijven in de gefilterde array.
+
+7. Noem drie websites waarop een vergelijkbare zoekfunctie wordt gebruikt.
+Steam, Netflix en Spotify gebruiken vergelijkbare zoekfuncties.
+
+AI-opdracht
+
+Uitleg van ChatGPT
+
+filter() loopt door een lijst en controleert ieder item met een voorwaarde. Alleen de items waarvoor de voorwaarde waar is, komen in een nieuwe lijst. In React kun je bijvoorbeeld de gametitel vergelijken met wat iemand in het zoekveld typt. Daarna gebruik je map() om de passende games als GameCards te tonen.
+
+Waarom een zoekfunctie belangrijk is (54 woorden)
+
+Een zoekfunctie helpt gebruikers snel te vinden wat ze zoeken, zonder de hele lijst door te hoeven lopen. Dat is vooral handig wanneer een applicatie veel games of andere gegevens bevat. In mijn Game Collection kan iemand een deel van een titel typen en direct passende games zien. Dat maakt de app overzichtelijker en prettiger in gebruik.
