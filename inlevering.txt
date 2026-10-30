@@ -246,3 +246,46 @@ Ontwikkelaars zetten gegevens in JSON om ze los te houden van de code die ze op 
 Voordelen van het scheiden van data en presentatie (52 woorden)
 
 Als data en presentatie gescheiden zijn, blijft de code overzichtelijk. Ik kan games aanpassen in het JSON-bestand zonder de component te veranderen. Dezelfde GameCard kan veel verschillende games tonen. Daardoor kan ik makkelijker nieuwe gegevens toevoegen en fouten opsporen. Dit maakt mijn Game Collection eenvoudiger te onderhouden en later uit te breiden.
+
+
+Les 9 - AI afbeeldingen toegevoegd
+
+Kennischeck
+
+1. Waarom slaan we de bestandsnaam van een afbeelding op in games.json?
+Zo kan iedere game aan de juiste afbeelding worden gekoppeld zonder de React-component aan te passen.
+
+2. Waarom plaatsen we afbeeldingen in de map public/images?
+Bestanden in public zijn rechtstreeks beschikbaar via een URL, bijvoorbeeld /images/minecraft.jpg.
+
+3. Hoe geef je een afbeelding door aan een React-component?
+Je geeft de bestandsnaam als prop door, bijvoorbeeld image={game.image}.
+
+4. Waarvoor gebruiken we de alt-eigenschap?
+alt beschrijft de afbeelding voor schermlezers en wordt getoond als de afbeelding niet kan laden.
+
+5. Wat is Prompt Engineering?
+Prompt Engineering is het duidelijk formuleren en verbeteren van een opdracht voor een AI-tool.
+
+6. Noem twee ethische aandachtspunten bij het gebruik van AI-afbeeldingen.
+Gebruik geen ongeoorloofde bestaande covers of logo's en controleer of de afbeelding geschikt is om openbaar te gebruiken.
+
+7. Waarom is het belangrijk om AI-uitvoer altijd zelf te controleren?
+AI kan fouten maken of onbedoeld op bestaand werk lijken. Zelf controleren helpt om kwaliteit, bruikbaarheid en verantwoord gebruik te bewaken.
+
+AI-opdracht
+
+1. Welke AI-tool heb je gebruikt?
+Copilot AI-assistent om een originele vectorillustratie te maken, die als JPG in de app wordt gebruikt.
+
+2. Welke prompt heb je geschreven?
+Maak een originele verticale gameposter van een fantasierijke blokkerige sandboxwereld met bergen, bossen, een avonturier en warme zonsondergangkleuren. Moderne digitale illustratie, zonder tekst, logo's of bestaande personages.
+
+3. Heb je de prompt aangepast? Waarom?
+Ja. Ik verfijnde de prompt twee keer: eerst voegde ik bergen, bos en een avonturier toe voor meer diepte; daarna koos ik warme zonsondergangkleuren en sloot ik tekst, logo's en bestaande personages uit.
+
+4. Waarom heb je juist deze afbeelding gekozen?
+De warme kleuren en blokkerige omgeving passen bij een sandboxgame. De originele illustratie heeft sfeer zonder een officiële cover na te maken.
+
+5. Welke ethische aandachtspunten heb je meegenomen?
+De illustratie gebruikt geen officieel logo, bestaande cover of herkenbaar gamepersonage. Ik heb gecontroleerd dat de afbeelding geschikt is en bij de opdracht past.

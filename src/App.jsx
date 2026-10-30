@@ -39,6 +39,7 @@ function App() {
               genre={game.genre}
               rating={game.rating}
               year={game.year}
+              image={game.image}
             />
             ))
           ) : (

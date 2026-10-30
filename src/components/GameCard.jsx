@@ -5,6 +5,12 @@ function GameCard(props) {
 
   return (
     <article className="game-card">
+      <img
+        src={`/images/${props.image ?? 'game-default.svg'}`}
+        alt={`${props.image ? 'Poster' : 'Gamecontrollerillustratie'} voor ${props.title}`}
+        className="game-image"
+        loading="lazy"
+      />
       <h3>{props.title}</h3>
       <p>Platform: {props.platform}</p>
       <p>Genre: {props.genre}</p>
