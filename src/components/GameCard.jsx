@@ -16,6 +16,8 @@ function GameCard(props) {
       <p>Genre: {props.genre}</p>
       <p>Rating: ⭐ {props.rating}</p>
       <p>Jaar: {props.year}</p>
+      <p>Developer: {props.developer}</p>
+      <p>Multiplayer: {props.multiplayer ? 'Ja' : 'Nee'}</p>
       <button
         className="favorite-button"
         type="button"

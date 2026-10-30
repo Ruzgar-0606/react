@@ -289,3 +289,56 @@ De warme kleuren en blokkerige omgeving passen bij een sandboxgame. De originele
 
 5. Welke ethische aandachtspunten heb je meegenomen?
 De illustratie gebruikt geen officieel logo, bestaande cover of herkenbaar gamepersonage. Ik heb gecontroleerd dat de afbeelding geschikt is en bij de opdracht past.
+
+
+Les 10 - Eindopdracht afgerond
+
+Uitgevoerde uitbreidingen
+
+1. De GameCards hebben grotere afbeeldingen, afgeronde hoeken, schaduw en een hover-effect.
+2. Aan games.json zijn developer en multiplayer toegevoegd en deze gegevens staan op de GameCards.
+3. Zoeken werkt op titel, genre, platform en developer.
+4. De website heeft een eigen paarse stijl, persoonlijke header, introductie en footer.
+5. Bonusopdracht: games sorteren op hoogste rating of nieuwste jaar. Ik koos hiervoor zodat bezoekers de best beoordeelde of nieuwste games snel kunnen vinden.
+
+Kennischeck
+
+1. Wat is volgens jou het grootste voordeel van React?
+Met React kan ik een pagina opbouwen uit herbruikbare componenten. Als de data verandert, werkt React de weergave bij.
+
+2. Waarom gebruiken we componenten?
+Componenten verdelen de applicatie in kleine, herbruikbare onderdelen, zoals een header, footer en GameCard.
+
+3. Wanneer gebruik je Props?
+Props gebruik ik om gegevens van een bovenliggende component door te geven aan een component, bijvoorbeeld de titel en rating van een game.
+
+4. Wanneer gebruik je State?
+State gebruik ik voor gegevens die tijdens het gebruik veranderen, zoals de zoektekst of de favorietstatus.
+
+5. Waarvoor gebruiken we map()?
+map() maakt voor ieder item in een array iets nieuws, zoals een GameCard voor iedere game.
+
+6. Waarvoor gebruiken we filter()?
+filter() maakt een nieuwe array met alleen de items die voldoen aan een voorwaarde, zoals games die bij de zoekopdracht passen.
+
+7. Waarom slaan we gegevens op in een JSON-bestand?
+Zo staan de gegevens los van de componenten en kan ik games toevoegen of aanpassen zonder de weergavecode te wijzigen.
+
+8. Waarom gebruiken we GitHub tijdens softwareontwikkeling?
+GitHub bewaart de versiegeschiedenis en maakt samenwerken en het delen van code mogelijk.
+
+9. Hoe kan AI een softwareontwikkelaar ondersteunen?
+AI kan helpen met ideeën, uitleg, codevoorbeelden, documentatie en het opsporen van fouten.
+
+10. Waarom blijft kritisch nadenken belangrijk wanneer je AI gebruikt?
+AI kan fouten maken of ongeschikte inhoud voorstellen. Ik moet de uitkomst controleren op juistheid, kwaliteit en verantwoord gebruik.
+
+AI-opdracht
+
+Uitleg van ChatGPT
+
+Tijdens deze module heeft een beginnende React-ontwikkelaar geleerd hoe je een webapplicatie opbouwt met componenten en Props. Ook zijn State, gebeurtenissen, arrays, map(), filter(), JSON en afbeeldingen behandeld. Door deze technieken te combineren ontstaat een applicatie waarvan gegevens en presentatie overzichtelijk samenwerken. Softwareontwikkeling vraagt daarnaast om testen, documenteren en kritisch omgaan met AI.
+
+Reflectie (voorbeeld, 114 woorden)
+
+Ik ben er trots op dat mijn Game Collection stap voor stap is uitgegroeid tot een interactieve applicatie met herbruikbare GameCards, zoekfunctie, JSON-data en afbeeldingen. Ik vond het lastig om de gegevens uit JSON te combineren met de zoekfunctie, omdat ik goed moest opletten welke eigenschappen door de componenten werden gebruikt. De React-techniek die ik waarschijnlijk het meest ga gebruiken is State, omdat veel websites reageren op invoer en acties van gebruikers. In de vervolgreeks React & Laravel wil ik leren hoe ik gegevens uit een database ophaal en via een API aan React koppel. Ook wil ik leren hoe ik gegevens kan toevoegen, bekijken, wijzigen en verwijderen en hoe gebruikers veilig kunnen inloggen.

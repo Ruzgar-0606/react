@@ -6,7 +6,9 @@
     "genre": "Sandbox",
     "rating": 9.5,
     "year": 2011,
-    "image": "minecraft.jpg"
+    "image": "minecraft.jpg",
+    "developer": "Mojang Studios",
+    "multiplayer": true
   },
   {
     "id": 2,
@@ -14,7 +16,9 @@
     "platform": "Nintendo Switch 2",
     "genre": "Race",
     "rating": 9.3,
-    "year": 2025
+    "year": 2025,
+    "developer": "Nintendo",
+    "multiplayer": true
   },
   {
     "id": 3,
@@ -22,7 +26,9 @@
     "platform": "PlayStation 5",
     "genre": "Sport",
     "rating": 8.9,
-    "year": 2015
+    "year": 2015,
+    "developer": "Psyonix",
+    "multiplayer": true
   },
   {
     "id": 4,
@@ -30,7 +36,9 @@
     "platform": "PlayStation 5",
     "genre": "Sport",
     "rating": 8.6,
-    "year": 2025
+    "year": 2025,
+    "developer": "EA Vancouver",
+    "multiplayer": true
   },
   {
     "id": 5,
@@ -38,7 +46,9 @@
     "platform": "Nintendo Switch",
     "genre": "Adventure",
     "rating": 9.8,
-    "year": 2023
+    "year": 2023,
+    "developer": "Nintendo EPD",
+    "multiplayer": false
   },
   {
     "id": 6,
@@ -46,7 +56,9 @@
     "platform": "PC",
     "genre": "Battle Royale",
     "rating": 8.7,
-    "year": 2017
+    "year": 2017,
+    "developer": "Epic Games",
+    "multiplayer": true
   },
   {
     "id": 7,
@@ -54,7 +66,9 @@
     "platform": "playstation 5",
     "genre": "board game",
     "rating": 8.8,
-    "year": 2020
+    "year": 2020,
+    "developer": "Scopely",
+    "multiplayer": true
   },
   {
     "id": 8,
@@ -62,7 +76,9 @@
     "platform": "PC",
     "genre": "Adventure",
     "rating": 9.9,
-    "year": 2018
+    "year": 2018,
+    "developer": "Rockstar Studios",
+    "multiplayer": false
   },
   {
     "id": 9,
@@ -70,7 +86,9 @@
     "platform": "PC",
     "genre": "Action",
     "rating": 9.8,
-    "year": 2013
+    "year": 2013,
+    "developer": "Rockstar North",
+    "multiplayer": true
   },
   {
     "id": 10,
@@ -78,7 +96,9 @@
     "platform": "PlayStation 5",
     "genre": "RPG",
     "rating": 9.7,
-    "year": 2022
+    "year": 2022,
+    "developer": "FromSoftware",
+    "multiplayer": true
   },
   {
     "id": 11,
@@ -86,7 +106,9 @@
     "platform": "ESP32 / Raspberry Pi / Arduino",
     "genre": "Developer Event",
     "rating": 10.0,
-    "year": 2027
+    "year": 2027,
+    "developer": "ROC Amstelland",
+    "multiplayer": false
   },
   {
     "id": 12,
@@ -94,7 +116,9 @@
     "platform": "PC",
     "genre": "Sandbox",
     "rating": 9.0,
-    "year": 2011
+    "year": 2011,
+    "developer": "Re-Logic",
+    "multiplayer": true
   },
   {
     "id": 13,
@@ -102,7 +126,9 @@
     "platform": "PC",
     "genre": "Tactical Shooter",
     "rating": 8.8,
-    "year": 2020
+    "year": 2020,
+    "developer": "Riot Games",
+    "multiplayer": true
   },
   {
     "id": 14,
@@ -110,7 +136,9 @@
     "platform": "PC",
     "genre": "MOBA",
     "rating": 9.0,
-    "year": 2009
+    "year": 2009,
+    "developer": "Riot Games",
+    "multiplayer": true
   },
   {
     "id": 15,
@@ -118,7 +146,9 @@
     "platform": "PC",
     "genre": "Sandbox",
     "rating": 8.5,
-    "year": 2006
+    "year": 2006,
+    "developer": "Roblox Corporation",
+    "multiplayer": true
   },
   {
     "id": 16,
@@ -126,7 +156,9 @@
     "platform": "Nintendo Switch",
     "genre": "Simulation",
     "rating": 9.2,
-    "year": 2020
+    "year": 2020,
+    "developer": "Nintendo EPD",
+    "multiplayer": true
   },
   {
     "id": 17,
@@ -134,7 +166,9 @@
     "platform": "PC",
     "genre": "RPG",
     "rating": 9.7,
-    "year": 2015
+    "year": 2015,
+    "developer": "CD Projekt Red",
+    "multiplayer": false
   },
   {
     "id": 18,
@@ -142,7 +176,9 @@
     "platform": "PlayStation 5",
     "genre": "Action RPG",
     "rating": 8.5,
-    "year": 2023
+    "year": 2023,
+    "developer": "Avalanche Software",
+    "multiplayer": false
   },
   {
     "id": 19,
@@ -150,7 +186,9 @@
     "platform": "PlayStation 5",
     "genre": "Action",
     "rating": 8.6,
-    "year": 2025
+    "year": 2025,
+    "developer": "Ubisoft Quebec",
+    "multiplayer": false
   },
   {
     "id": 20,
@@ -158,7 +196,9 @@
     "platform": "PlayStation 5",
     "genre": "First-Person Shooter",
     "rating": 8.2,
-    "year": 2025
+    "year": 2025,
+    "developer": "Treyarch",
+    "multiplayer": true
   },
   {
     "id": 21,
@@ -166,7 +206,9 @@
     "platform": "Xbox Series X/S",
     "genre": "Racing",
     "rating": 9.1,
-    "year": 2021
+    "year": 2021,
+    "developer": "Playground Games",
+    "multiplayer": true
   },
   {
     "id": 22,
@@ -174,6 +216,8 @@
     "platform": "PlayStation 4",
     "genre": "Action",
     "rating": 9.5,
-    "year": 2026
+    "year": 2026,
+    "developer": "Rockstar Games",
+    "multiplayer": false
   }
 ]
